@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+header{
+    // height: 500px;
+    background-color: gray;
+    .header{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        input , select,button{
+            width: 500px;
+            height: 20px;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+            margin-bottom: 10px;
+        }
+        select,button{
+            height: 40px; 
+            width: 520px; 
+        }
+        button{
+            cursor: pointer;
+            font-size: 20px;
+        }
+    }
+}

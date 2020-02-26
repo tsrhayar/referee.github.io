@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex3.css">
+    <title>frais d'arbitrage</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Kilométrage</h1>
+            <input type="number" placeholder="enter le nombre des kilométres" min="25" id="distance">
+            <h1>Division</h1>
+            <select id="frais">
+                <option value="0">-- Enter la division --</option>
+                <option value="3000">PRO 1</option>
+                <option value="2000">PRO 2</option>
+                <option value="1300">National</option>
+                <option value="1000">AMATEUR 1</option>
+                <option value="800">AMATEUR 2</option>
+                <option value="750">FEMININE 1 OU 2</option>
+            </select>
+            <button onclick="validation()">Valider</button>
+            <script src="ex3.js"></script>
+        </div>
+    </header>
+</body>
+</html>
